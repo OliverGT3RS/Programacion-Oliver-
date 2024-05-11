@@ -3,7 +3,7 @@ import Reto1.Process.MenuDeCalculos;
 import Reto1.ui.CLI;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         CLI cli = new CLI();
         char opcion;
 

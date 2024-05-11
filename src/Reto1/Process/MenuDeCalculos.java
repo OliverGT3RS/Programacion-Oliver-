@@ -1,5 +1,5 @@
 package Reto1.Process;
-public class MenuDeCalculos {
+public class  MenuDeCalculos {
     // Método para calcular el índice de masa corporal (IMC)
     public static double calcularIMC(double peso, double estatura) {
         // Convertir estatura a metros
