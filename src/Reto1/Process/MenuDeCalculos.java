@@ -39,7 +39,7 @@ public class MenuDeCalculos {
     public static double calcularMetabolismoBasal(double peso, double estatura, int edad, String sexo) {
         if (sexo.equalsIgnoreCase("mujer"))
             return 655.1 + (9.563 * peso) + (1.85 * estatura) - (4.676 * edad);
-        else
+
             return 66.5 + (13.75 * peso) + (5.003 * estatura) - (6.775 * edad);
     }
 }

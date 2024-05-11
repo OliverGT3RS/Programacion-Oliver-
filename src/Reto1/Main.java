@@ -23,7 +23,7 @@ public class Main {
                 case 'B':
                     // Cálculo de masa corporal magra
                     double[] datosMasaMagra = cli.solicitarDatosPaciente();
-                    String sexo = cli.solicitarSexo();
+                    String sexo =  cli.solicitarSexo();
                     double masaMagra = MenuDeCalculos.calcularMasaCorporalMagra(datosMasaMagra[0], datosMasaMagra[1], sexo);
                     cli.mostrarResultados("La masa corporal magra calculada es: " + masaMagra + " kg.");
                     break;
