@@ -2,7 +2,7 @@ package Reto1.ui;
 
 import java.util.Scanner;
 
-public class CLI {
+public class  CLI {
     private Scanner scanner;
 
     public CLI() {

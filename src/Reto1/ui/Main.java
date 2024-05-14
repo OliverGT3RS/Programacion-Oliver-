@@ -1,6 +1,5 @@
-package Reto1;
+package Reto1.ui;
 import Reto1.Process.MenuDeCalculos;
-import Reto1.ui.CLI;
 
 public class Main {
     public static void main(String[] args) {
